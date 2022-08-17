@@ -7,7 +7,7 @@ Na sequência de números, o programa toma conhecimento do primeiro numero primo
 ### Paralelismo de Dados
 Consiste em dividir o dado com o qual deve-se trabalhar, a sequênicia de numeros naturais é divida pelo numero de processadores, com cada um marcando os números multiplos de um mesmo divisor em uma parte da sequência.
 
-## #Paralelismo de Controle
+### Paralelismo de Controle
 Consite em dividir as tarefas entre os processadores, neste caso cada processador iria marcar sobre o mesmo vetor múltiplos de divisores primos distintos, outra thread também seria responsável por encontrar novos divisores e passar sua informação para as threads que acabarem o seu trabalho.
 
 ### Méotodos de programação
